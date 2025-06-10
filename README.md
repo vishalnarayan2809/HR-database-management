@@ -20,7 +20,8 @@ A comprehensive Human Resources database management system built with PostgreSQL
 - **Turnover Analysis**: Employee retention and turnover metrics
 - **Leadership Pipeline**: Identification of high-potential employees
 
-### ERD Diagram![My diagram](https://github.com/user-attachments/assets/bd7ffaaf-0d68-472c-9902-53631ae0d396)
+### ERD Diagram
+![My diagram](https://github.com/user-attachments/assets/bd7ffaaf-0d68-472c-9902-53631ae0d396)
 
     
 
