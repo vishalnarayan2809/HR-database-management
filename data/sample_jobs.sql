@@ -1,0 +1,22 @@
+-- Sample data for jobs table
+INSERT INTO jobs (job_title, job_description, min_salary, max_salary, job_category, experience_level, employment_type, is_active) VALUES
+('Software Engineer', 'Develop and maintain software applications using modern programming languages and frameworks', 65000, 130000, 'Technology', 'Mid', 'Full-time', true),
+('Senior Software Engineer', 'Lead software development projects and mentor junior developers', 90000, 160000, 'Technology', 'Senior', 'Full-time', true),
+('Data Analyst', 'Analyze business data to provide insights and recommendations for decision making', 55000, 95000, 'Analytics', 'Mid', 'Full-time', true),
+('Senior Data Scientist', 'Lead data science initiatives and develop machine learning models', 95000, 150000, 'Analytics', 'Senior', 'Full-time', true),
+('Project Manager', 'Plan, execute, and deliver projects on time and within budget', 75000, 135000, 'Management', 'Mid', 'Full-time', true),
+('HR Specialist', 'Manage employee relations, recruitment, and HR policies', 50000, 85000, 'Human Resources', 'Mid', 'Full-time', true),
+('HR Manager', 'Lead HR department and strategic HR initiatives', 75000, 120000, 'Human Resources', 'Senior', 'Full-time', true),
+('Sales Representative', 'Generate new business and maintain client relationships', 45000, 75000, 'Sales', 'Junior', 'Full-time', true),
+('Sales Manager', 'Lead sales team and develop sales strategies', 70000, 120000, 'Sales', 'Senior', 'Full-time', true),
+('Marketing Manager', 'Develop and execute marketing campaigns and strategies', 60000, 115000, 'Marketing', 'Mid', 'Full-time', true),
+('Database Administrator', 'Manage and maintain database systems and ensure data integrity', 70000, 120000, 'Technology', 'Mid', 'Full-time', true),
+('UX Designer', 'Design user interfaces and improve user experience for applications', 55000, 100000, 'Design', 'Mid', 'Full-time', true),
+('Network Engineer', 'Design, implement, and maintain network infrastructure', 65000, 120000, 'Technology', 'Mid', 'Full-time', true),
+('Business Analyst', 'Analyze business processes and requirements to improve efficiency', 60000, 105000, 'Analytics', 'Mid', 'Full-time', true),
+('DevOps Engineer', 'Manage CI/CD pipelines and cloud infrastructure', 75000, 135000, 'Technology', 'Mid', 'Full-time', true),
+('Product Manager', 'Define product strategy and manage product lifecycle', 80000, 140000, 'Management', 'Senior', 'Full-time', true),
+('Quality Assurance Engineer', 'Test software applications and ensure quality standards', 50000, 90000, 'Technology', 'Mid', 'Full-time', true),
+('Finance Analyst', 'Analyze financial data and prepare reports for management', 55000, 95000, 'Finance', 'Mid', 'Full-time', true),
+('Executive Assistant', 'Provide administrative support to senior executives', 40000, 70000, 'Administrative', 'Mid', 'Full-time', true),
+('Intern - Software Development', 'Learn software development skills under mentorship', 25000, 35000, 'Technology', 'Entry', 'Temporary', true);

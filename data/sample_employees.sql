@@ -1,0 +1,22 @@
+-- Sample data for employees table
+INSERT INTO employees (employee_number, first_name, last_name, email, phone_number, hire_date, job_id, department_id, manager_id, location_id, current_salary, employment_status, employment_type, date_of_birth, gender, emergency_contact_name, emergency_contact_phone, is_active) VALUES
+('EMP001', 'John', 'Doe', 'john.doe@company.com', '555-0101', '2023-01-15', 1, 4, NULL, 1, 85000.00, 'Active', 'Full-time', '1985-03-20', 'Male', 'Jane Doe', '555-0102', true),
+('EMP002', 'Jane', 'Smith', 'jane.smith@company.com', '555-0103', '2023-02-20', 3, 14, 1, 1, 72000.00, 'Active', 'Full-time', '1990-07-15', 'Female', 'John Smith', '555-0104', true),
+('EMP003', 'Emily', 'Johnson', 'emily.johnson@company.com', '555-0105', '2023-03-10', 5, 4, 1, 1, 95000.00, 'Active', 'Full-time', '1988-11-08', 'Female', 'Michael Johnson', '555-0106', true),
+('EMP004', 'Michael', 'Brown', 'michael.brown@company.com', '555-0107', '2023-04-05', 2, 4, 3, 5, 110000.00, 'Active', 'Full-time', '1983-09-25', 'Male', 'Sarah Brown', '555-0108', true),
+('EMP005', 'Sarah', 'Davis', 'sarah.davis@company.com', '555-0109', '2023-05-12', 6, 2, NULL, 1, 65000.00, 'Active', 'Full-time', '1992-01-30', 'Female', 'David Davis', '555-0110', true),
+('EMP006', 'David', 'Wilson', 'david.wilson@company.com', '555-0111', '2023-06-18', 14, 14, 2, 1, 78000.00, 'Active', 'Full-time', '1987-04-12', 'Male', 'Lisa Wilson', '555-0112', true),
+('EMP007', 'Laura', 'Garcia', 'laura.garcia@company.com', '555-0113', '2023-07-25', 9, 5, NULL, 2, 82000.00, 'Active', 'Full-time', '1989-08-17', 'Female', 'Carlos Garcia', '555-0114', true),
+('EMP008', 'James', 'Martinez', 'james.martinez@company.com', '555-0115', '2023-08-30', 1, 4, 4, 5, 75000.00, 'Active', 'Full-time', '1991-12-03', 'Male', 'Maria Martinez', '555-0116', true),
+('EMP009', 'Linda', 'Hernandez', 'linda.hernandez@company.com', '555-0117', '2023-09-15', 7, 2, 5, 1, 88000.00, 'Active', 'Full-time', '1986-05-22', 'Female', 'Roberto Hernandez', '555-0118', true),
+('EMP010', 'Robert', 'Lopez', 'robert.lopez@company.com', '555-0119', '2023-10-01', 12, 4, 4, 5, 68000.00, 'Active', 'Full-time', '1993-02-14', 'Male', 'Ana Lopez', '555-0120', true),
+('EMP011', 'Jennifer', 'Wang', 'jennifer.wang@company.com', '555-0121', '2022-03-15', 8, 5, 7, 2, 55000.00, 'Active', 'Full-time', '1994-06-08', 'Female', 'Kevin Wang', '555-0122', true),
+('EMP012', 'Christopher', 'Taylor', 'christopher.taylor@company.com', '555-0123', '2022-01-10', 11, 4, 4, 1, 95000.00, 'Active', 'Full-time', '1984-10-11', 'Male', 'Michelle Taylor', '555-0124', true),
+('EMP013', 'Amanda', 'Anderson', 'amanda.anderson@company.com', '555-0125', '2021-11-20', 10, 6, NULL, 2, 85000.00, 'Active', 'Full-time', '1987-03-29', 'Female', 'Ryan Anderson', '555-0126', true),
+('EMP014', 'Daniel', 'Thomas', 'daniel.thomas@company.com', '555-0127', '2022-07-05', 15, 12, 12, 5, 105000.00, 'Active', 'Full-time', '1982-12-15', 'Male', 'Sarah Thomas', '555-0128', true),
+('EMP015', 'Michelle', 'Jackson', 'michelle.jackson@company.com', '555-0129', '2023-01-08', 17, 11, 12, 5, 72000.00, 'Active', 'Full-time', '1990-09-07', 'Female', 'James Jackson', '555-0130', true),
+('EMP016', 'Kevin', 'White', 'kevin.white@company.com', '555-0131', '2021-05-12', 16, 13, NULL, 1, 125000.00, 'Active', 'Full-time', '1980-07-18', 'Male', 'Linda White', '555-0132', true),
+('EMP017', 'Lisa', 'Harris', 'lisa.harris@company.com', '555-0133', '2022-09-30', 18, 3, NULL, 1, 70000.00, 'Active', 'Full-time', '1988-11-25', 'Female', 'Mark Harris', '555-0134', true),
+('EMP018', 'Ryan', 'Clark', 'ryan.clark@company.com', '555-0135', '2023-03-22', 19, 1, NULL, 1, 45000.00, 'Active', 'Full-time', '1995-01-10', 'Male', 'Ashley Clark', '555-0136', true),
+('EMP019', 'Ashley', 'Lewis', 'ashley.lewis@company.com', '555-0137', '2023-08-15', 20, 4, 4, 5, 28000.00, 'Active', 'Temporary', '2001-04-05', 'Female', 'Nicole Lewis', '555-0138', true),
+('EMP020', 'Nicole', 'Robinson', 'nicole.robinson@company.com', '555-0139', '2021-12-01', 4, 14, 6, 1, 135000.00, 'Active', 'Full-time', '1979-08-30', 'Female', 'Steven Robinson', '555-0140', true);
